@@ -1,0 +1,15 @@
+<!-- data binding and event handling -->
+
+<h1>Welcome To This App</h1>
+
+<!-- Property Binding -->
+ <!-- You can bind properties to HTML elements using [property]="expression" -->
+<input [value]="title" />
+
+<!-- Event Binding -->
+<!-- Use (event) to bind events to methods: -->
+<button (click)="onClick()">Click Me</button>
+
+<!-- Interpolation (Displaying Data) -->
+<!-- You can display component data in the template using interpolation {{ }} -->
+ <p>{{ title }}</p>
