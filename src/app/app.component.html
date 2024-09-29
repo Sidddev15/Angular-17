@@ -1,7 +1,2 @@
-<div>
-  <input type="text" [(ngModel)]="name" placeholder="Enter A Name...." /> <!-- Create an input field for user input, bound to 'name' using ngModel for two-way data binding. -->
-</div>
-
-<hr /> 
-
-<h1>Hello {{ name }}</h1> <!-- Display a greeting that updates dynamically based on the 'name' property value entered in the input field. -->
+<!-- title getting passed from parent to child component -->
+<app-dynamic-display [title]="' Title passed from parent'"></app-dynamic-display>
